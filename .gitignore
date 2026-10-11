@@ -1,0 +1,17 @@
+# Python virtual environments
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Local data & databases (keep raw data and lakes out of Git)
+data/
+*.parquet
+*.duckdb
+*.duckdb.wal
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment files
+.env
